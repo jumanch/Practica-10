@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+
+            background-color: gainsboro
+        }
+
+
+    </style>
+</head>
+
+<body>
+    
+    <form action="contacto.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40" placeholder="Introduzca aquí su nombre" required></p>
+        <p>Apellidos: <input type="text" name="apellidos" size="38" placeholder="Introduzca aquí sus apellidos"></p>
+        <p>Estado Civil: <input type="text" name="estado" size="35" placeholder="Introduzca aquí su Estado Civil"></p>
+                <p>Teléfono: <input type="tel" name="telefono" required></p>
+        <p>Móvil: <input type="tel" name="telefono" required></p>
+        <p>Sexo:
+          <input type="radio" name="hm" value="h"> Hombre
+          <input type="radio" name="hm" value="m"> Mujer
+          <input type="radio" name="hm" value="t"> Tonto
+        </p>
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar">
+        </p>
+      </form>
+
+<br>
+<br>
+
+      <form action="contacto.php" method="get">
+        <p>Usuario: <input type="text" name="usuario" size="40" placeholder="Introduzca aquí tu usuario" required></p>
+        <p>Contraseña: <input type="password" name="pass" size="38" placeholder="Introduzca aquí su contraseña"></p>
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar">
+        </p>
+      </form>
+
+
+Requisitos: Nombre apellidos telefono, movil, dirección, estado civil, hombre o mujer y que se envie a "contacto.php"
+
+
+
+<h1>PULSAME PARA GANAR</h1>
+<input type="submit" value="Gana" disabled>
+<br>
+<br>
+
+<input type="text" name="texto" value="¡A que no me cambias!" readonly>
+<br>
+<br>
+
+<input type="text" name="texto1" value="Texto 1">
+<input type="text" name="texto2" value="Texto 2">
+<input type="text" name="texto3" value="Texto 3">
+<input type="text" name="texto4" value="Texto 4">
+
+<br>
+<br>
+
+
+<input type="text" name="texto1" value="Acceso con a" accesskey="a">
+<input type="text" name="texto2" value="Acceso con i" accesskey="i">
+<input type="text" name="texto3" value="Acceso con o" accesskey="o">
+<input type="text" name="texto4" value="Acceso con u" accesskey="u">
+
+<br><br>
+
+<textarea name="texto" rows="4" cols="20" placeholder="Introduce aqui algo inútil"></textarea>
+
+<br><br>
+
+<input type="file" name="archivo">
+<br><br><br><br><br><br><br>
+
+
+<form>
+    <button type="button" onclick="mensaje('You have been hacked')">Botón</button>
+
+    <script>
+      function mensaje(texto) {
+        alert(texto);
+      }
+    </script>
+
+
+</form>
+
+<br><br><br><br><br><br>
+</body>
+</html>
