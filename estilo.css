@@ -1,0 +1,52 @@
+@charset "utf-8";
+table#gran{
+            width: 1920px;
+            text-align: center;
+        }
+        td.der{
+            width: 33%;
+        }
+        tr#cen{
+            text-align: center;
+        }
+        h1{
+        text-align: center;
+        font-family:verdana;
+        color:white
+        }
+
+        p.derecha {
+        text-align: right;
+        font-family:courier;
+        }
+
+        p.izquierda{
+        text-align: left;
+        font-family:courier;
+        }
+
+        p.centrado{
+        font-family:courier;
+        text-align: center;
+        }
+        div.a {
+        background-color: palevioletred;
+        text-align: center;
+        font-family: verdana;
+        color:white;
+        font-size: 70%;
+}
+        div.b {
+        background-color:moccasin;
+        text-align: center;
+        font-family:verdana;
+        color:white;
+}
+p.a {
+        background-color:moccasin;
+        text-align: left;
+        font-family:verdana;
+        color:white;
+}
+
+
